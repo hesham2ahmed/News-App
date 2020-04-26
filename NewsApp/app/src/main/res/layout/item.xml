@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_margin="15dp"
+    android:elevation="5dp"
+    android:background="@drawable/radius">
+
+    <TextView
+        android:id="@+id/news_title"
+        style="@style/text_style"
+        android:textSize="25sp"
+        android:text="@string/title"
+        android:textColor="@color/black"
+        android:singleLine="false"/>
+
+    <TextView
+        android:id="@+id/news_section_name"
+        style="@style/text_style"
+        android:textSize="15sp"
+        android:text="@string/section_name"
+        android:layout_gravity="bottom"/>
+
+    <TextView
+        android:id="@+id/news_type"
+        style="@style/text_style"
+        android:textSize="15sp"
+        android:text="@string/type" />
+
+    <TextView
+        android:id="@+id/news_author_name"
+        style="@style/text_style"
+        android:textSize="15sp"
+        android:text="@string/author_name" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/news_time"
+            style="@style/text_time_style"
+            android:text="@string/time"/>
+
+        <TextView
+            android:id="@+id/news_date"
+            style="@style/text_time_style"
+            android:text="@string/publication_date"/>
+    </LinearLayout>
+
+</LinearLayout>

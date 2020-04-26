@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">News App</string>
+    <string name="title">title</string>
+    <string name="publication_date">publication date</string>
+    <string name="section_name">section name</string>
+    <string name="author_name">author name</string>
+    <string name="location">location</string>
+    <string name="tag">tag</string>
+    <string name="type">type</string>
+    <string name="no_internet_connection">No Internet Connection</string>
+    <string name="no_news_found">No News Found</string>
+    <string name="news_settings">News Settings</string>
+
+
+    <string name="most_recent">most recent</string>
+    <string name="tobics">politics, football, economy, ...</string>
+    <string name="enter_topic">Type a Topic</string>
+    <string name="tobic_key">setting_topic_key</string>
+    <string name="setting">settings</string>
+    <string name="time">time</string>
+
+
+
+</resources>
